@@ -34,6 +34,7 @@ about:
   home: https://github.com/matplotlib/grid-strategy
   license: Apache-2
   license_family: Apache
+  license_file: LICENSE
   summary: Library to facilitate the arrangement of matplotlib subplots based on the number of plots
 
 extra:
