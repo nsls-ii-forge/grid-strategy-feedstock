@@ -26,6 +26,10 @@ requirements:
     - matplotlib
     - numpy
 
+test:
+  imports:
+    - grid_strategy
+
 about:
   home: https://github.com/matplotlib/grid-strategy
   license: Apache-2
