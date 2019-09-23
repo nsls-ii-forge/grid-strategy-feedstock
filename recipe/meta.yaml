@@ -5,8 +5,8 @@
 {% set hash_value = "d8db1c12e6f33eb55ba56a5b19f4848aae862a9a343fea422a353c46ab6ccc23" %}
 
 package:
-  name: '{{ name|lower }}'
-  version: '{{ version }}'
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ file_ext }}
@@ -36,7 +36,3 @@ about:
   license_family: Apache
   license_file: LICENSE
   summary: Library to facilitate the arrangement of matplotlib subplots based on the number of plots
-
-extra:
-  recipe-maintainers:
-    - mrakitin
